@@ -1,0 +1,11 @@
+[project]
+name = "comfyui-jt-tools"
+description = "ComfyUI-JT_Tools custom nodes."
+version = "0.1.0"
+license = { text = "MIT" }
+dependencies = []
+
+[tool.comfy]
+DisplayName = "ComfyUI-JT_Tools"
+PublisherId = "jt"
+Icon = ""
