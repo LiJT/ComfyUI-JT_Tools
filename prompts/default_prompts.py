@@ -38,24 +38,28 @@ DEFAULT_PROMPT_PRESETS = [
     },
     # Qwen Image（2512）
     {
-        "title": "Qwen Image 2512 提示词改写",
+        "title": "Qwen Image 2512 提示词优化",
         "prompt": _SRC.QWEN_IMAGE_2512_ZH,
     },
     {
-        "title": "Qwen Image 2512 Prompt Rewriter (EN)",
+        "title": "Qwen Image 2512 Prompt Optimizer (EN)",
         "prompt": _SRC.QWEN_IMAGE_2512_EN,
     },
     # Qwen Image Edit
     {
-        "title": "Qwen Image Edit 指令改写",
-        "prompt": _SRC.QWEN_IMAGE_EDIT,
+        "title": "Qwen Image Edit 提示词优化",
+        "prompt": _SRC.QWEN_IMAGE_EDIT_ZH,
     },
     {
-        "title": "Qwen Image Edit 2509 指令改写",
+        "title": "Qwen Image Edit Prompt Optimizer (EN)",
+        "prompt": _SRC.QWEN_IMAGE_EDIT_EN,
+    },
+    {
+        "title": "Qwen Image Edit 2509 提示词优化",
         "prompt": _SRC.QWEN_IMAGE_EDIT_2509,
     },
     {
-        "title": "Qwen Image Edit 2511 指令增强",
+        "title": "Qwen Image Edit 2511 提示词优化",
         "prompt": _SRC.QWEN_IMAGE_EDIT_2511,
     },
     # Z-Image
@@ -92,11 +96,11 @@ DEFAULT_PROMPT_PRESETS = [
     },
     # WAN I2V（有输入提示词）
     {
-        "title": "WAN I2V 提示词改写",
+        "title": "WAN I2V 提示词优化",
         "prompt": _SRC.WAN_I2V_ZH,
     },
     {
-        "title": "WAN I2V Prompt Rewriter (EN)",
+        "title": "WAN I2V Prompt Optimizer (EN)",
         "prompt": _SRC.WAN_I2V_EN,
     },
     # WAN I2V（空提示词补全）
@@ -116,5 +120,37 @@ DEFAULT_PROMPT_PRESETS = [
     {
         "title": "WAN FLF2V Prompt Optimizer (EN)",
         "prompt": _SRC.WAN_FLF2V_EN,
+    },
+    {
+        "title": "提示词扩写-通用",
+        "prompt": _SRC.PROMPT_ENHANCE_GENERAL_ZH,
+    },
+    {
+        "title": "提示词扩写-人像大师",
+        "prompt": _SRC.PROMPT_ENHANCE_PORTRIT_ZH,
+    },
+    {
+        "title": "提示词扩写-Tags风格",
+        "prompt": _SRC.PROMPT_ENHANCE_SDXLTAGS_ZH,
+    },
+    {
+        "title": "提示词扩写-Kontext指令优化翻译",
+        "prompt": _SRC.PROMPT_ENHANCE_FLUXKONTEXT_EN,
+    },
+    {
+        "title": "提示词反推-中文",
+        "prompt": _SRC.GETPROMPT_DETAIL_CN,
+    },
+    {
+        "title": "提示词反推-英文",
+        "prompt": _SRC.GETPROMPT_DETAIL_EN,
+    },
+    {
+        "title": "提示词反推-Tags中文",
+        "prompt": _SRC.GETPROMPT_TAGS_CN,
+    },
+    {
+        "title": "提示词反推-Tags英文",
+        "prompt": _SRC.GETPROMPT_TAGS_EN,
     },
 ]
