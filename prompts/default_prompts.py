@@ -72,6 +72,15 @@ DEFAULT_PROMPT_PRESETS = [
         "title": "FLUX.2 I2I Prompt Optimizer (EN)",
         "prompt": _SRC.FLUX2_I2I,
     },
+    # FLUX.2 Klein
+    {
+        "title": "FLUX.2 Klein T2I Prompt Optimizer (EN)",
+        "prompt": _SRC.FLUX2_KLEIN_T2I_EN,
+    },
+    {
+        "title": "FLUX.2 Klein Edit Prompt Optimizer (EN)",
+        "prompt": _SRC.FLUX2_KLEIN_EDIT_EN,
+    },
     # WAN T2V
     {
         "title": "WAN T2V 提示词优化",
