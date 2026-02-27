@@ -132,7 +132,7 @@ DEFAULT_PROMPT_PRESETS = [
     },
     {
         "title": "提示词扩写-Tags风格",
-        "prompt": _SRC.PROMPT_ENHANCE_SDXLTAGS_ZH,
+        "prompt": _SRC.PROMPT_ENHANCE_SDXLTAGS_EN,
     },
     {
         "title": "提示词扩写-Kontext指令优化翻译",

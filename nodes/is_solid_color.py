@@ -13,7 +13,7 @@ class IsSolidColorImage:
     RETURN_TYPES = ("BOOLEAN",)
     RETURN_NAMES = ("boolean",)
     FUNCTION = "check_solid"
-    CATEGORY = "logic/image"
+    CATEGORY = "JT Tools/Tools"
 
     def check_solid(self, image, threshold):
         # 计算画面中最亮和最暗像素的极差
