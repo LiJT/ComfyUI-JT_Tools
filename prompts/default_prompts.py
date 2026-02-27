@@ -121,6 +121,7 @@ DEFAULT_PROMPT_PRESETS = [
         "title": "WAN FLF2V Prompt Optimizer (EN)",
         "prompt": _SRC.WAN_FLF2V_EN,
     },
+    # 提示词扩写
     {
         "title": "提示词扩写-通用",
         "prompt": _SRC.PROMPT_ENHANCE_GENERAL_ZH,
@@ -137,6 +138,7 @@ DEFAULT_PROMPT_PRESETS = [
         "title": "提示词扩写-Kontext指令优化翻译",
         "prompt": _SRC.PROMPT_ENHANCE_FLUXKONTEXT_EN,
     },
+    # 提示词反推    
     {
         "title": "提示词反推-中文",
         "prompt": _SRC.GETPROMPT_DETAIL_CN,
