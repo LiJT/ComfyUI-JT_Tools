@@ -22,6 +22,14 @@ def _load_prompt_enhancer_module():
 _SRC = _load_prompt_enhancer_module()
 
 DEFAULT_PROMPT_PRESETS = [
+    {
+        "title": "图像简单反推(中文)",
+        "prompt": "根据这张图像：生成中文提示词。要求：内容详尽细致（不要出现无关的文字和符号）",
+    },
+    {
+        "title": "图像简单反推(英文)",
+        "prompt": "Generate a highly detailed English prompt based on this image. Output only the prompt without any irrelevant text or symbols (avoid irrelevant text and symbols)",
+    },
     # 默认示例
     {
         "title": "默认AI图像提示词",
@@ -125,6 +133,14 @@ DEFAULT_PROMPT_PRESETS = [
     {
         "title": "提示词扩写-通用",
         "prompt": _SRC.PROMPT_ENHANCE_GENERAL_ZH,
+    },
+    {
+        "title": "提示词扩写-简单(中文)",
+        "prompt": _SRC.PROMPT_ENHANCE_SIMPLE_ZH,
+    },
+    {
+        "title": "提示词扩写-简单(英文)",
+        "prompt": _SRC.PROMPT_ENHANCE_SIMPLE_EN,
     },
     {
         "title": "提示词扩写-人像大师",
