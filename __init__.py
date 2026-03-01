@@ -22,7 +22,12 @@ for node_file in _NODES_DIR.glob("*.py"):
         continue
 
     module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
+    try:
+        spec.loader.exec_module(module)
+    except Exception as exc:
+        print(f"[ComfyUI-JT_Tools] Failed to load node module '{module_name}': {exc}")
+        continue
+
     NODE_CLASS_MAPPINGS.update(getattr(module, "NODE_CLASS_MAPPINGS", {}))
     NODE_DISPLAY_NAME_MAPPINGS.update(getattr(module, "NODE_DISPLAY_NAME_MAPPINGS", {}))
 
